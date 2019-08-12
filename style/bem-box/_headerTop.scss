@@ -1,0 +1,32 @@
+.b-headerTop {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    align-items: center;
+
+    &__logo {
+        width: 115px;
+        height: 20px;
+    }
+
+    &__menuItems {
+        font-size: 16px;
+        color: rgb(255, 255, 255);
+        line-height: 0.75;
+        display: inline-block;
+        border: solid 1px transparent;
+        text-align: center;
+        padding: 8px 10px;
+
+        &:hover {
+            border-color: #fff;
+            border-radius: 15px;
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+
+   
+
+
+}

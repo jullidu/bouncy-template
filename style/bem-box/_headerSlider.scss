@@ -1,0 +1,38 @@
+.b-headerSlider {
+
+    &__title {
+        font-size: 35px;
+        font-family: "Source Sans Pro", sans-serif;
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        letter-spacing: 10px;
+        margin: 220px 0 44px;
+        text-align: center;
+
+        @include media-breakpoint-down(sm) {
+            margin: 120px 0 44px;
+        }
+
+    }
+
+    &__desc {
+        font-size: 16px;
+        color: rgb(255, 255, 255);
+        line-height: 1.75;
+        letter-spacing: 1px;
+        margin-bottom: 200px;
+        text-align: center;
+    }
+
+    &__hover {
+        display: block;
+        width: 35px;
+        height: 35px;
+        margin: 0 auto;
+
+        &:hover {
+            opacity: 0.6;
+        }
+    }
+
+}

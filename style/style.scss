@@ -1,0 +1,43 @@
+@import "bootstrap/scss/bootstrap.scss";
+@import "bem-box/headerTop";
+@import "bem-box/headerSlider";
+@import "bem-box/aboutUs";
+
+.container {
+    max-width: 1360px;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    min-height: 740px;
+    background-image: url(../images/header-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 90px 0;
+
+    @include media-breakpoint-down(sm) {
+        padding: 30px 30px 0;
+    }
+}
+
+.buttonLink {
+    width: 140px;
+    height: 35px;
+    display: inline-block;
+    border: rgb(51, 59, 70) solid 1px;
+    border-radius: 20px;
+    font-size: 16px;
+    color: rgb(51, 59, 70);
+    line-height: 0.75;
+    text-align: center;
+    padding: 10px;
+
+    &:hover {
+        opacity: 0.6;
+        color: rgb(51, 59, 70);
+        text-decoration: none;
+    }
+
+}

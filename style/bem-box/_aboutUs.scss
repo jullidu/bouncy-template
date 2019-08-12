@@ -1,0 +1,43 @@
+.b-aboutUs {
+    min-height: 500px;
+    background-color: #fff;
+    justify-content: center;
+    padding-top: 80px;
+    margin: 0;
+
+    &__text {
+        margin-right: 100px;
+
+        @include media-breakpoint-down(sm) {
+            margin: 0 auto;
+        }
+
+        @include media-breakpoint-down(xs) {
+            margin-bottom: 40px;
+        }
+    }
+
+    &__title {
+        font-size: 20px;
+        font-family: "Source Sans Pro", sans-serif;
+        color: rgb(51, 59, 70);
+        text-transform: uppercase;
+        line-height: 0.6;
+        margin: 30px 0 40px;
+    }
+
+    &__desc {
+        font-size: 14px;
+        font-family: "Open Sans";
+        color: rgb(129, 134, 142);
+        line-height: 1.786;
+        margin-bottom: 30px;
+    }
+
+    &__imgBox {
+        width: 300px;
+        height: 300px;
+    }
+
+
+}
