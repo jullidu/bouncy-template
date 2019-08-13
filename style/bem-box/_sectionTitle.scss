@@ -1,0 +1,21 @@
+.b-sectionTitle {
+    font-size: 20px;
+    font-family: "Source Sans Pro", sans-serif;
+    color: rgb(51, 59, 70);
+    text-transform: uppercase;
+    line-height: 0.6;
+    margin-bottom: 40px;
+
+    &__subtitle {
+        font-size: 14px;
+        color: rgb(129, 134, 142);
+        line-height: 1.786;
+    }
+
+    &_details,
+    &__subtitle_details {
+        text-align: center;
+    }
+
+
+}
