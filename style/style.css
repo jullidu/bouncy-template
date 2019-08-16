@@ -569,6 +569,95 @@ Due to the split circle of progress-left and progress right, we must use the ani
   text-align: justify;
 }
 
+.b-impressed {
+  min-height: 350px;
+  background-image: url(../../images/impressed-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin: 0;
+}
+
+@media (max-width: 1199.98px) {
+  .b-impressed {
+    padding: 20px;
+  }
+}
+
+.b-impressed__textBox {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+@media (max-width: 1199.98px) {
+  .b-impressed__textBox {
+    margin-bottom: 20px;
+  }
+}
+
+.b-impressed__title {
+  font-size: 22px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #f3f3f3;
+  text-transform: uppercase;
+  line-height: 3;
+  letter-spacing: 2px;
+}
+
+.b-impressed__quote {
+  font-size: 16px;
+  color: #b2b3b3;
+  line-height: 1.75;
+  margin-bottom: 25px;
+}
+
+.b-impressed__sign, .b-impressed__signDesc {
+  font-size: 14px;
+  color: #b2b3b3;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.b-impressed__sign {
+  font-weight: bold;
+}
+
+.b-impressed__signDesc_green {
+  color: #1d7a64;
+}
+
+@media (min-width: 1200px) {
+  .b-impressed__imgBox {
+    position: relative;
+  }
+}
+
+.b-impressed__img {
+  display: block;
+}
+
+@media (min-width: 1200px) {
+  .b-impressed__img {
+    position: absolute;
+    top: -40px;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .b-impressed__img {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .b-impressed__img {
+    width: 100%;
+  }
+}
+
 .container {
   max-width: 1360px;
   padding: 0;

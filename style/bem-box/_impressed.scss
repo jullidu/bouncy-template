@@ -1,0 +1,76 @@
+.b-impressed {
+    min-height: 350px;
+    background-image: url(../../images/impressed-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: flex-end;
+    margin: 0;
+
+    @include media-breakpoint-down(lg) {
+        padding: 20px;
+    }
+
+    &__textBox {
+        align-self: center;
+
+        @include media-breakpoint-down(lg) {
+            margin-bottom: 20px;
+        }
+    }
+
+    &__title {
+        font-size: 22px;
+        font-family: "Source Sans Pro", sans-serif;
+        color: rgb(243, 243, 243);
+        text-transform: uppercase;
+        line-height: 3;
+        letter-spacing: 2px;
+    }
+
+    &__quote {
+        font-size: 16px;
+        color: rgb(178, 179, 179);
+        line-height: 1.75;
+        margin-bottom: 25px;
+    }
+
+    &__sign,
+    &__signDesc {
+        font-size: 14px;
+        color: rgb(178, 179, 179);
+        text-transform: uppercase;
+        margin-bottom: 5px;
+
+    }
+
+    &__sign {
+        font-weight: bold;
+    }
+
+    &__signDesc_green {
+        color: #1d7a64;
+    }
+
+    &__imgBox {
+        @include media-breakpoint-only(xl) {
+            position: relative;
+        }
+    }
+
+    &__img {
+        display: block;
+
+        @include media-breakpoint-only(xl) {
+            position: absolute;
+            top: -40px;
+        }
+
+        @include media-breakpoint-down(lg) {
+            margin: 0 auto;
+        }
+
+        @include media-breakpoint-down(sm) {
+            width: 100%;
+        }
+    }
+}
