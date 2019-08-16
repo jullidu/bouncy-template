@@ -1,0 +1,40 @@
+.b-iconsMenu {
+    justify-content: center;
+    margin: 20px 0 20px;
+
+    &__item {
+        width: 50px;
+        height: 50px;
+        background-color: #81868e;
+        border-radius: 50%;
+        padding: 0;
+
+        &:not(:last-child) {
+            margin-right: 27px;
+        }
+    }
+
+    &__link {
+        display: block;
+        height: 100%;
+    }
+
+    &__item_active {
+        background-color: #19bd9a;
+    }
+
+    &_vertical {
+        align-self: center;
+
+        @include media-breakpoint-down(sm) {
+            display: flex;
+            flex-direction: row;
+        }
+    }
+
+    &__item_vertical {
+        &:not(:last-child) {
+            margin-bottom: 15px;
+        }
+    }
+}

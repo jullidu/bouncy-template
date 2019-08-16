@@ -42,6 +42,9 @@
 @import "bem-box/aboutUs";
 @import "bem-box/details";
 @import "bem-box/sectionTitle";
+@import "bem-box/iconsMenu";
+@import "bem-box/progressBar";
+@import "bem-box/services";
 
 .container {
     max-width: 1360px;
@@ -84,4 +87,74 @@ header {
 
 .buttonLinkAbout {
     margin-top: 30px;
+}
+
+.sectionTitleCenter,
+.sectionSubtitleCenter {
+    text-align: center;
+}
+
+.iconHeart {
+    background-image: url(../images/heart.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.iconMouse {
+    background-image: url(../images/mouse.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+    &:hover {
+        background-color: #19bd9a;
+    }
+
+}
+
+.iconLight {
+    background-image: url(../images/light.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+    &:hover {
+        background-color: #19bd9a;
+    }
+
+}
+
+.iconTools {
+    background-image: url(../images/icon-tools.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+    &:hover {
+        background-color: #19bd9a;
+    }
+}
+
+.iconRoller {
+    background-image: url(../images/icon-roller.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.iconJoystick {
+    background-image: url(../images/icon-joystick.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+    &:hover {
+        background-color: #19bd9a;
+    }
+}
+
+.iconCable {
+    background-image: url(../images/icon-cable.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+    &:hover {
+        background-color: #19bd9a;
+    }
 }
