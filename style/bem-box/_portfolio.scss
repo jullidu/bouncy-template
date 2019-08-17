@@ -1,0 +1,201 @@
+.b-portfolio {
+    background-color: #f3f3f3;
+    padding: 70px 120px;
+
+    &__nav {
+        text-align: center;
+        margin: 30px 0;
+    }
+
+    &__navItems {
+        font-size: 16px;
+        color: rgb(70, 70, 70);
+        line-height: 2;
+
+        &:not(:last-child) {
+            margin-right: 15px;
+        }
+
+        &:hover {
+            border-bottom: 1px solid rgb(25, 189, 154);
+            text-decoration: none;
+            color: rgb(70, 70, 70);
+        }
+    }
+
+
+    &__iconsBox {
+        display: flex;
+        justify-content: left;
+    }
+
+    &__iconLike {
+        width: 30px;
+        height: 30px;
+        background-color: #000;
+        background-image: url(../../images/iconLike.png);
+        background-repeat: no-repeat;
+        background-position: center;
+
+        &:hover {
+            background-color: #19bd9a;
+        }
+    }
+
+    &__iconLink {
+        width: 30px;
+        height: 30px;
+        background-color: #000;
+        background-image: url(../../images/icon-link.png);
+        background-repeat: no-repeat;
+        background-position: center;
+
+        &:hover {
+            background-color: #19bd9a;
+        }
+    }
+
+    &__imgBox {
+        margin: 0;
+        min-height: 950px;
+    }
+
+    &__col1,
+    &__col2,
+    &__col3,
+    &__col4 {
+        padding-left: 0;
+
+    }
+
+    &__col1 {
+        display: grid;
+        grid-row-gap: 15px;
+        grid-template-rows: 40% 40% 20%;
+    }
+
+    &__col2 {
+        display: grid;
+        grid-row-gap: 15px;
+        grid-template-rows: 20% 40% 40%;
+    }
+
+    &__col3 {
+        display: grid;
+        grid-row-gap: 15px;
+        grid-template-rows: 30% 40% 30%;
+    }
+
+    &__col4 {
+        display: grid;
+        grid-row-gap: 15px;
+        grid-template-rows: 40% 25% 35%;
+    }
+
+    &__img1-1 {
+        background-image: url(../../images/portfolio1-1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    &__img1-2 {
+        background-image: url(../../images/portfolio1-2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    &__img1-3 {
+        background-image: url(../../images/portfolio1-3.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    &__img1-4 {
+        background-image: url(../../images/portfolio1-4.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    &__img2-1 {
+        background-image: url(../../images/portfolio2-1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    &__img2-2 {
+        background-image: url(../../images/portfolio2-2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    &__img2-3 {
+        background-image: url(../../images/portfolio2-3.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    &__img2-4 {
+        background-image: url(../../images/portfolio2-4.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    &__img3-1 {
+        background-image: url(../../images/portfolio3-1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    &__img3-2 {
+        background-image: url(../../images/portfolio3-2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    &__img3-3 {
+        background-image: url(../../images/portfolio3-3.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    &__img3-4 {
+        background-image: url(../../images/portfolio3-4.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    &__textUp {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 30px;
+        background-color: #000;
+        opacity: 0;
+
+        &:hover {
+            opacity: 0.8;
+        }
+
+    }
+
+    &__imgLink {
+        font-size: 20px;
+        font-family: "Source Sans Pro", sans-serif;
+        color: rgb(25, 189, 154);
+        line-height: 2;
+
+        &:hover {
+            border-bottom: 1px solid rgb(25, 189, 154);
+            color: #19bd9a;
+            text-decoration: none;
+        }
+    }
+
+    &__imgDesc {
+        font-size: 12px;
+        color: rgb(178, 179, 179);
+        line-height: 1.667;
+    }
+}

@@ -46,6 +46,7 @@
 @import "bem-box/progressBar";
 @import "bem-box/services";
 @import "bem-box/impressed";
+@import "bem-box/portfolio";
 
 .container {
     max-width: 1360px;
@@ -63,6 +64,7 @@ header {
 
     @include media-breakpoint-down(sm) {
         padding: 30px 30px;
+        min-height: 400px;
     }
 }
 

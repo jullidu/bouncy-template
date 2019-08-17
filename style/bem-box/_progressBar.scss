@@ -1,7 +1,7 @@
 //styling
 $borderWidth: 5px;
 $animationTime: 1.5s;
-$border-color-default: #1a484b;
+$border-color-default: #0e2425;
 $border-color-fill: #21be9d;
 $size: 120px;
 
@@ -62,7 +62,7 @@ $howManySteps: 10; //this needs to be even.
         border-left: 0;
         -webkit-transform-origin: center left;
         transform-origin: center left;
-        //animation: loading-2 1.5s linear forwards 1.8s;
+        // animation: loading-2 1.5s linear forwards 1.8s;
     }
 
     .progress-right {
