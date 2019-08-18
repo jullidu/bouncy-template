@@ -78,7 +78,7 @@ header {
     color: rgb(51, 59, 70);
     line-height: 0.75;
     text-align: center;
-    padding: 10px;
+    padding: 12px;
 
     &:hover {
         opacity: 0.6;
@@ -90,6 +90,11 @@ header {
 
 .buttonLinkAbout {
     margin-top: 30px;
+}
+
+.buttonLinkPortfolio {
+    border: #fff solid 1px;
+    color: #fff;
 }
 
 .sectionTitleCenter,
