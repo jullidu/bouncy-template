@@ -43,10 +43,11 @@
 @import "bem-box/details";
 @import "bem-box/sectionTitle";
 @import "bem-box/iconsMenu";
-@import "bem-box/progressBar";
+@import "bem-box/progressBarServices";
 @import "bem-box/services";
 @import "bem-box/impressed";
 @import "bem-box/portfolio";
+@import "bem-box/team";
 
 .container {
     max-width: 1360px;
@@ -92,7 +93,7 @@ header {
     margin-top: 30px;
 }
 
-.buttonLinkPortfolio {
+.buttonFooterSection {
     border: #fff solid 1px;
     color: #fff;
 }
@@ -165,4 +166,28 @@ header {
     &:hover {
         background-color: #19bd9a;
     }
+}
+
+.footerSection {
+    min-height: 200px;
+    background-image: url(../images/portfolio-start-bg.png);
+    background-size: cover;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.footerSectionDesc {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    line-height: 1.25;
+}
+
+.footerSectionTeam {
+    margin-top: 0;
+    background-image: url(../images/team-footer-bg.png);
 }

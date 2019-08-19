@@ -1,7 +1,7 @@
 //styling
 $borderWidth: 5px;
 $animationTime: 1.5s;
-$border-color-default: #0e2425;
+$border-color-default: #48494a;
 $border-color-fill: #21be9d;
 $size: 120px;
 
@@ -9,7 +9,7 @@ $size: 120px;
 $howManySteps: 10; //this needs to be even. 
 //for fun try using 20 and changine in the HTML the data-percentage to 15 or 85
 
-.progress {
+.progress-services {
     width: $size;
     height: $size;
     line-height: $size;
@@ -38,11 +38,11 @@ $howManySteps: 10; //this needs to be even.
         z-index: 1;
     }
 
-    .progress-left {
+    .progress-left-services {
         left: 0;
     }
 
-    .progress-bar {
+    .progress-bar-services {
         width: 100%;
         height: 100%;
         background: none;
@@ -53,7 +53,7 @@ $howManySteps: 10; //this needs to be even.
         border-color: $border-color-fill;
     }
 
-    .progress-left .progress-bar {
+    .progress-left-services .progress-bar-services {
         left: 100%;
         border-top-right-radius: ($size/2);
         ;
@@ -65,10 +65,10 @@ $howManySteps: 10; //this needs to be even.
         // animation: loading-2 1.5s linear forwards 1.8s;
     }
 
-    .progress-right {
+    .progress-right-services {
         right: 0;
 
-        .progress-bar {
+        .progress-bar-services {
             left: -100%;
             border-top-left-radius: ($size/2);
             ;
@@ -81,7 +81,7 @@ $howManySteps: 10; //this needs to be even.
         }
     }
 
-    .progress-value {
+    .progress-value-services {
         display: flex;
         border-radius: 50%;
         font-size: 36px;
