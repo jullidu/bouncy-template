@@ -48,6 +48,9 @@
 @import "bem-box/impressed";
 @import "bem-box/portfolio";
 @import "bem-box/team";
+@import "bem-box/testimonials";
+@import "bem-box/price";
+@import "bem-box/animationPrice";
 
 .container {
     max-width: 1360px;
@@ -190,4 +193,15 @@ header {
 .footerSectionTeam {
     margin-top: 0;
     background-image: url(../images/team-footer-bg.png);
+}
+
+
+.carousel-control-next-icon {
+    background-image: url(../images/chevron-right-solid.svg);
+
+}
+
+.carousel-control-prev-icon {
+    background-image: url(../images/chevron-left-solid.svg);
+
 }

@@ -1,0 +1,87 @@
+.b-price {
+    background-color: #e2dfdf;
+    min-height: 600px;
+    padding: 50px 0;
+
+    &__blockTitle {
+        font-size: 20px;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        display: inline-block;
+        background-color: #19bd9a;
+        width: 100%;
+        min-height: 60px;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+
+    }
+
+    &__blockPrice {
+        font-size: 50px;
+        font-family: "Source Sans Pro", sans-serif;
+        color: rgb(31, 187, 166);
+        font-weight: bold;
+        margin-bottom: 0;
+        text-align: center;
+
+    }
+
+
+    &__blockDesc {
+        font-size: 20px;
+        color: rgb(129, 134, 142);
+        text-align: center;
+    }
+
+    &__blockWrap {
+        margin: 50px 0 0;
+        justify-content: center;
+
+
+    }
+
+
+    &__hoverList {
+        list-style-type: none;
+        padding-left: 0;
+        text-align: center;
+
+    }
+
+    &__hoverItems {
+        font-size: 14px;
+        color: rgb(129, 134, 142);
+        line-height: 2.143;
+
+    }
+
+    &__hoverButton {
+        height: 60px;
+        background-color: rgb(31, 187, 166);
+    }
+
+    &__hoverLink {
+        font-size: 16px;
+        color: rgb(255, 255, 255);
+        line-height: 0.75;
+        height: 100%;
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &:hover {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            opacity: 0.5;
+        }
+
+    }
+
+
+
+
+}
