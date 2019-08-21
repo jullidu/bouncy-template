@@ -1,0 +1,49 @@
+.b-subscribe {
+    min-height: 370px;
+    background-image: url(../../images/subscribe-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    &__title {
+        color: #fff;
+    }
+
+    &__subTitle {
+        color: #71767d;
+    }
+
+    &__form {
+        margin: 0;
+        justify-content: center;
+    }
+
+    &__email {
+        background-color: transparent;
+        font-size: 14px;
+        color: rgb(207, 211, 212);
+        height: 40px;
+
+    }
+
+    &__submitBtn {
+        height: 40px;
+        background-color: #19bd9a;
+        border-color: #19bd9a;
+        font-size: 14px;
+        color: rgb(255, 255, 255);
+
+        &:hover {
+            background-color: #19bd9a;
+            border-color: #19bd9a;
+            opacity: 0.7;
+        }
+
+        @include media-breakpoint-down(sm) {
+            max-width: 150px;
+        }
+
+    }
+}
