@@ -1,0 +1,37 @@
+.b-map {
+    height: 500px;
+
+    &:hover &__textUpBox {
+        display: none;
+    }
+
+    &__google {
+        width: 100%;
+        height: 100%;
+    }
+
+    &__wrap {
+        height: inherit;
+        position: relative;
+    }
+
+    &__textUpBox {
+        width: 100%;
+        height: 100%;
+        opacity: 0.9;
+        background-color: #252525;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    &__textUp {
+        font-size: 20px;
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        margin: 0 15px 0 0;
+    }
+}
