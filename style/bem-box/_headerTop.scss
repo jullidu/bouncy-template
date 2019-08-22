@@ -1,5 +1,6 @@
 .b-headerTop {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     height: 40px;
     align-items: center;
@@ -7,6 +8,10 @@
     &__logo {
         width: 115px;
         height: 20px;
+
+        // @include media-breakpoint-down(sm) {
+        //     margin-bottom: 15px;
+        // }
     }
 
     &__menuItems {
@@ -26,7 +31,7 @@
         }
     }
 
-   
+
 
 
 }

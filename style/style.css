@@ -2,6 +2,8 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -147,7 +149,7 @@
   font-family: "Source Sans Pro", sans-serif;
   color: #333b46;
   text-transform: uppercase;
-  line-height: 0.6;
+  line-height: 1.6;
   margin-bottom: 40px;
 }
 
@@ -1526,6 +1528,8 @@ Due to the split circle of progress-left and progress right, we must use the ani
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -1542,6 +1546,87 @@ Due to the split circle of progress-left and progress right, we must use the ani
   color: white;
   text-transform: uppercase;
   margin: 0 15px 0 0;
+  text-align: center;
+}
+
+.b-footer {
+  min-height: 285px;
+  background-color: #f3f3f3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.b-footer__imgWrap {
+  margin-bottom: 20px;
+}
+
+.b-footer__copy {
+  font-size: 14px;
+  color: #81868e;
+  line-height: 1.786;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.b-footer__link {
+  display: inline-block;
+  color: #fff;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.b-footer__link:not(:last-child) {
+  margin-right: 15px;
+}
+
+.b-footer__iconFacebook {
+  background-color: #3b5998;
+}
+
+.b-footer__iconTwitter {
+  background-color: #26a6d1;
+}
+
+.b-footer__iconLinkedin {
+  background-color: #0e76a8;
+}
+
+.b-footer__iconInstagram {
+  background-color: #3f729b;
+}
+
+.b-footer__iconVimeo {
+  background-color: #86c9ef;
+}
+
+.b-footer__iconFacebook:hover, .b-footer__iconInstagram:hover, .b-footer__iconLinkedin:hover, .b-footer__iconTwitter:hover, .b-footer__iconVimeo:hover {
+  color: #fff;
+  background-color: #19bd9a;
+}
+
+.b-footer__socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .container {

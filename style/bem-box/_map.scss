@@ -21,6 +21,7 @@
         opacity: 0.9;
         background-color: #252525;
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         align-items: center;
         position: absolute;
@@ -33,5 +34,6 @@
         color: rgb(255, 255, 255);
         text-transform: uppercase;
         margin: 0 15px 0 0;
+        text-align: center;
     }
 }

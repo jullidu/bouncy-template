@@ -1,0 +1,71 @@
+.b-footer {
+    min-height: 285px;
+    background-color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__imgWrap {
+        margin-bottom: 20px;
+    }
+
+    &__copy {
+        font-size: 14px;
+        color: rgb(129, 134, 142);
+        line-height: 1.786;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    &__link {
+        display: inline-block;
+        color: #fff;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        padding-top: 10px;
+
+        &:not(:last-child) {
+            margin-right: 15px;
+        }
+    }
+
+    &__iconFacebook {
+        background-color: #3b5998;
+    }
+
+    &__iconTwitter {
+        background-color: #26a6d1;
+    }
+
+    &__iconLinkedin {
+        background-color: #0e76a8;
+    }
+
+    &__iconInstagram {
+        background-color: #3f729b;
+    }
+
+    &__iconVimeo {
+        background-color: #86c9ef;
+    }
+
+    &__iconFacebook,
+    &__iconInstagram,
+    &__iconLinkedin,
+    &__iconTwitter,
+    &__iconVimeo {
+        &:hover {
+            color: #fff;
+            background-color: #19bd9a;
+        }
+    }
+
+    &__socials {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
