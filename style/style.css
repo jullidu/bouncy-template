@@ -1314,6 +1314,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
   border-color: #19bd9a;
   font-size: 14px;
   color: white;
+  text-transform: uppercase;
 }
 
 .b-subscribe__submitBtn:hover {
@@ -1326,6 +1327,177 @@ Due to the split circle of progress-left and progress right, we must use the ani
   .b-subscribe__submitBtn {
     max-width: 150px;
   }
+}
+
+.b-contact {
+  min-height: 600px;
+  background-color: #f3f3f3;
+  padding: 80px 0;
+}
+
+.b-contact__wrap {
+  margin: 60px 0 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (max-width: 767.98px) {
+  .b-contact__wrap {
+    padding: 0 15px;
+  }
+}
+
+.b-contact__emailImg {
+  background-image: url(../../images/contact-email-bg.png);
+}
+
+.b-contact__officeImg {
+  background-image: url(../../images/contact-office-bg.png);
+}
+
+.b-contact__phoneImg {
+  background-image: url(../../images/contact-phone-bg.png);
+}
+
+.b-contact__emailImg, .b-contact__officeImg, .b-contact__phoneImg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 140px;
+}
+
+.b-contact__imgUp {
+  height: 100%;
+}
+
+.b-contact__link {
+  color: #fff;
+  opacity: 0.7;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.b-contact__link:hover {
+  color: #19bd9a;
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+.b-contact__textBox {
+  height: 120px;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.b-contact__textTitle {
+  font-size: 16px;
+  color: #464646;
+  text-transform: uppercase;
+  line-height: 1.25;
+}
+
+.b-contact__textSub {
+  font-size: 14px;
+  color: #81868e;
+  text-transform: uppercase;
+  line-height: 1.429;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.b-contact__items {
+  padding: 0;
+}
+
+.b-contact__items:not(:last-child) {
+  margin-right: 30px;
+}
+
+@media (max-width: 767.98px) {
+  .b-contact__items:not(:last-child) {
+    margin: 0 0 20px;
+  }
+}
+
+.b-submit {
+  min-height: 550px;
+  background-color: #fff;
+  padding: 80px 150px;
+}
+
+@media (max-width: 767.98px) {
+  .b-submit {
+    padding: 80px 20px;
+  }
+}
+
+.b-submit__formGroup {
+  padding: 0;
+  margin: 0;
+}
+
+@media (max-width: 767.98px) {
+  .b-submit__formGroup:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
+
+.b-submit__form {
+  border-color: #d8dce0;
+  font-size: 14px;
+  color: darkgray;
+  line-height: 8.929;
+  height: 50px;
+}
+
+.b-submit__textarea {
+  border-color: #d8dce0;
+  resize: none;
+  margin-bottom: 50px;
+}
+
+.b-submit__btn {
+  font-size: 16px;
+  color: white;
+  text-transform: uppercase;
+  background-color: #19bd9a;
+  border-color: #19bd9a;
+  width: 100%;
+  height: 45px;
+}
+
+.b-submit__btn:hover {
+  background-color: #19bd9a;
+  border-color: #19bd9a;
+  opacity: 0.7;
+}
+
+.b-submit__formWrap {
+  margin: 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 50px;
 }
 
 .container {

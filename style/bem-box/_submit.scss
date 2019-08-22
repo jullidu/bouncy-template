@@ -1,0 +1,59 @@
+.b-submit {
+    min-height: 550px;
+    background-color: #fff;
+    padding: 80px 150px;
+
+    @include media-breakpoint-down(sm) {
+        padding: 80px 20px;
+    }
+
+    &__formGroup {
+        padding: 0;
+        margin: 0;
+
+        @include media-breakpoint-down(sm) {
+            &:not(:last-child) {
+                margin-bottom: 30px;
+            }
+        }
+    }
+
+    &__form {
+        border-color: #d8dce0;
+        font-size: 14px;
+        color: rgb(169, 169, 169);
+        line-height: 8.929;
+        height: 50px;
+
+    }
+
+    &__textarea {
+        border-color: #d8dce0;
+        resize: none;
+        margin-bottom: 50px;
+    }
+
+    &__btn {
+        font-size: 16px;
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        background-color: #19bd9a;
+        border-color: #19bd9a;
+        width: 100%;
+        height: 45px;
+
+        &:hover {
+            background-color: #19bd9a;
+            border-color: #19bd9a;
+            opacity: 0.7;
+        }
+
+    }
+
+    &__formWrap {
+        margin: 0;
+        justify-content: space-between;
+        margin-bottom: 50px;
+
+    }
+}
