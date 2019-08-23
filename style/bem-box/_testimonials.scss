@@ -29,7 +29,10 @@
         @include media-breakpoint-down(md) {
             margin-bottom: 15px;
             padding-left: 15px;
+        }
 
+        @media (max-width: 300px) {
+            padding: 0;
         }
     }
 
@@ -44,6 +47,9 @@
 
         }
 
+        @media (max-width: 300px) {
+            width: 100%;
+        }
 
     }
 

@@ -18,6 +18,12 @@
   height: 20px;
 }
 
+@media (max-width: 300px) {
+  .b-headerTop__logo {
+    margin-bottom: 15px;
+  }
+}
+
 .b-headerTop__menuItems {
   font-size: 16px;
   color: white;
@@ -105,6 +111,12 @@
   }
 }
 
+@media (max-width: 300px) {
+  .b-aboutUs__img {
+    width: 100%;
+  }
+}
+
 .b-details {
   min-height: 600px;
   background-color: #f3f3f3;
@@ -160,10 +172,25 @@
 }
 
 .b-iconsMenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   margin: 20px 0 20px;
+}
+
+@media (max-width: 300px) {
+  .b-iconsMenu {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 
 .b-iconsMenu__item {
@@ -176,6 +203,12 @@
 
 .b-iconsMenu__item:not(:last-child) {
   margin-right: 27px;
+}
+
+@media (max-width: 300px) {
+  .b-iconsMenu__item:not(:last-child) {
+    margin: 0 0 15px 0;
+  }
 }
 
 .b-iconsMenu__link {
@@ -198,10 +231,22 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media (max-width: 300px) {
+  .b-iconsMenu_vertical {
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 15px;
   }
 }
 
@@ -225,7 +270,7 @@
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  border: 5px solid #48494a;
+  border: 7px solid #48494a;
   position: absolute;
   top: 0;
   left: 0;
@@ -248,7 +293,7 @@
   width: 100%;
   height: 100%;
   background: none;
-  border-width: 5px;
+  border-width: 7px;
   border-style: solid;
   position: absolute;
   top: 0;
@@ -306,9 +351,9 @@
 }
 
 .progressBox .row {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   margin: 0;
 }
 
@@ -677,6 +722,12 @@ Due to the split circle of progress-left and progress right, we must use the ani
   }
 }
 
+@media (max-width: 300px) {
+  .b-portfolio {
+    padding: 20px 10px;
+  }
+}
+
 .b-portfolio__nav {
   text-align: center;
   margin: 50px 0;
@@ -701,6 +752,14 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .b-portfolio__dropdownMenu {
   text-align: right;
   margin: 50px 5px;
+}
+
+@media (max-width: 300px) {
+  .b-portfolio__dropdownMenu {
+    text-align: center;
+    margin: 20px 0;
+    width: 100%;
+  }
 }
 
 .b-portfolio__imgBox {
@@ -1048,6 +1107,12 @@ Due to the split circle of progress-left and progress right, we must use the ani
   }
 }
 
+@media (max-width: 300px) {
+  .b-reviews__imgBox {
+    padding: 0;
+  }
+}
+
 .b-reviews__img {
   width: auto;
   height: 130px;
@@ -1059,6 +1124,12 @@ Due to the split circle of progress-left and progress right, we must use the ani
     height: 150px;
     -o-object-fit: cover;
        object-fit: cover;
+  }
+}
+
+@media (max-width: 300px) {
+  .b-reviews__img {
+    width: 100%;
   }
 }
 
@@ -1467,8 +1538,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .b-submit__form {
   border-color: #d8dce0;
   font-size: 14px;
-  color: darkgray;
-  line-height: 8.929;
+  color: #2c2b2b;
   height: 50px;
 }
 

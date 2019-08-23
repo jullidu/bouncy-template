@@ -9,9 +9,9 @@
         width: 115px;
         height: 20px;
 
-        // @include media-breakpoint-down(sm) {
-        //     margin-bottom: 15px;
-        // }
+        @media (max-width: 300px) {
+            margin-bottom: 15px;
+        }
     }
 
     &__menuItems {
