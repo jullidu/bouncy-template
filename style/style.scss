@@ -1,40 +1,7 @@
 //  import bootstrap:
-
 @import "../bootstrap/scss/functions";
 @import "../bootstrap/scss/variables";
 @import "../bootstrap/scss/mixins";
-// @import "../bootstrap/scss/root";
-// @import "../bootstrap/scss/reboot";
-// @import "../bootstrap/scss/type";
-// @import "../bootstrap/scss/images";
-// @import "../bootstrap/scss/code";
-// @import "../bootstrap/scss/grid";
-// @import "../bootstrap/scss/tables";
-// @import "../bootstrap/scss/forms";
-// @import "../bootstrap/scss/buttons";
-// @import "../bootstrap/scss/transitions";
-// @import "../bootstrap/scss/dropdown";
-// @import "../bootstrap/scss/button-group";
-// @import "../bootstrap/scss/input-group";
-// @import "../bootstrap/scss/custom-forms";
-// @import "../bootstrap/scss/nav";
-// @import "../bootstrap/scss/navbar";
-// @import "../bootstrap/scss/card";
-// @import "../bootstrap/scss/breadcrumb";
-// @import "../bootstrap/scss/pagination";
-// @import "../bootstrap/scss/badge";
-// @import "../bootstrap/scss/jumbotron";
-// @import "../bootstrap/scss/alert";
-// @import "../bootstrap/scss/progress";
-// @import "../bootstrap/scss/media";
-// @import "../bootstrap/scss/list-group";
-// @import "../bootstrap/scss/close";
-// @import "../bootstrap/scss/modal";
-// @import "../bootstrap/scss/tooltip";
-// @import "../bootstrap/scss/popover";
-// @import "../bootstrap/scss/carousel";
-// @import "../bootstrap/scss/utilities";
-// @import "../bootstrap/scss/print";
 
 // import my styles:
 @import "bem-box/headerTop";
@@ -66,7 +33,7 @@
 
 header {
     min-height: 740px;
-    background-image: url(../images/header-img.png);
+    background-image: url(/images/header-img.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 30px 90px;
@@ -112,14 +79,14 @@ header {
 }
 
 .iconHeart {
-    background-image: url(../images/heart.png);
+    background-image: url(/images/heart.png);
     background-repeat: no-repeat;
     background-position: center;
 
 }
 
 .iconMouse {
-    background-image: url(../images/mouse.png);
+    background-image: url(/images/mouse.png);
     background-repeat: no-repeat;
     background-position: center;
 
@@ -130,7 +97,7 @@ header {
 }
 
 .iconLight {
-    background-image: url(../images/light.png);
+    background-image: url(/images/light.png);
     background-repeat: no-repeat;
     background-position: center;
 
@@ -141,7 +108,7 @@ header {
 }
 
 .iconTools {
-    background-image: url(../images/icon-tools.png);
+    background-image: url(/images/icon-tools.png);
     background-repeat: no-repeat;
     background-position: center;
 
@@ -151,13 +118,13 @@ header {
 }
 
 .iconRoller {
-    background-image: url(../images/icon-roller.png);
+    background-image: url(/images/icon-roller.png);
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .iconJoystick {
-    background-image: url(../images/icon-joystick.png);
+    background-image: url(/images/icon-joystick.png);
     background-repeat: no-repeat;
     background-position: center;
 
@@ -167,7 +134,7 @@ header {
 }
 
 .iconCable {
-    background-image: url(../images/icon-cable.png);
+    background-image: url(/images/icon-cable.png);
     background-repeat: no-repeat;
     background-position: center;
 
@@ -178,7 +145,7 @@ header {
 
 .footerSection {
     min-height: 200px;
-    background-image: url(../images/portfolio-start-bg.png);
+    background-image: url(/images/portfolio-start-bg.png);
     background-size: cover;
     margin-top: 40px;
     display: flex;
@@ -197,16 +164,16 @@ header {
 
 .footerSectionTeam {
     margin-top: 0;
-    background-image: url(../images/team-footer-bg.png);
+    background-image: url(/images/team-footer-bg.png);
 }
 
 
 .carousel-control-next-icon {
-    background-image: url(../images/chevron-right-solid.svg);
+    background-image: url(/images/chevron-right-solid.svg);
 
 }
 
 .carousel-control-prev-icon {
-    background-image: url(../images/chevron-left-solid.svg);
+    background-image: url(/images/chevron-left-solid.svg);
 
 }

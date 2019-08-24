@@ -624,7 +624,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 
 .b-impressed {
   min-height: 350px;
-  background-image: url(../../images/impressed-bg.png);
+  background-image: url(/images/impressed-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   -webkit-box-pack: end;
@@ -805,73 +805,73 @@ Due to the split circle of progress-left and progress right, we must use the ani
 }
 
 .b-portfolio__img1-1 {
-  background-image: url(../images/portfolio1-1.png);
+  background-image: url(/images/portfolio1-1.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .b-portfolio__img1-2 {
-  background-image: url(../../images/portfolio1-2.png);
+  background-image: url(/images/portfolio1-2.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .b-portfolio__img1-3 {
-  background-image: url(../../images/portfolio1-3.png);
+  background-image: url(/images/portfolio1-3.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .b-portfolio__img1-4 {
-  background-image: url(../../images/portfolio1-4.png);
+  background-image: url(/images/portfolio1-4.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .b-portfolio__img2-1 {
-  background-image: url(../../images/portfolio2-1.png);
+  background-image: url(/images/portfolio2-1.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .b-portfolio__img2-2 {
-  background-image: url(../../images/portfolio2-2.png);
+  background-image: url(/images/portfolio2-2.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .b-portfolio__img2-3 {
-  background-image: url(../../images/portfolio2-3.png);
+  background-image: url(/images/portfolio2-3.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .b-portfolio__img2-4 {
-  background-image: url(../../images/portfolio2-4.png);
+  background-image: url(/images/portfolio2-4.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .b-portfolio__img3-1 {
-  background-image: url(../../images/portfolio3-1.png);
+  background-image: url(/images/portfolio3-1.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .b-portfolio__img3-2 {
-  background-image: url(../../images/portfolio3-2.png);
+  background-image: url(/images/portfolio3-2.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .b-portfolio__img3-3 {
-  background-image: url(../../images/portfolio3-3.png);
+  background-image: url(/images/portfolio3-3.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .b-portfolio__img3-4 {
-  background-image: url(../../images/portfolio3-4.png);
+  background-image: url(/images/portfolio3-4.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -911,7 +911,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
   width: 30px;
   height: 30px;
   background-color: #000;
-  background-image: url(../../images/iconLike.png);
+  background-image: url(/images/iconLike.png);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -924,7 +924,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
   width: 30px;
   height: 30px;
   background-color: #000;
-  background-image: url(../../images/icon-link.png);
+  background-image: url(/images/icon-link.png);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -1344,7 +1344,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 
 .b-subscribe {
   min-height: 370px;
-  background-image: url(../../images/subscribe-bg.png);
+  background-image: url(/images/subscribe-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   display: -webkit-box;
@@ -1422,15 +1422,15 @@ Due to the split circle of progress-left and progress right, we must use the ani
 }
 
 .b-contact__emailImg {
-  background-image: url(../../images/contact-email-bg.png);
+  background-image: url(/images/contact-email-bg.png);
 }
 
 .b-contact__officeImg {
-  background-image: url(../../images/contact-office-bg.png);
+  background-image: url(/images/contact-office-bg.png);
 }
 
 .b-contact__phoneImg {
-  background-image: url(../../images/contact-phone-bg.png);
+  background-image: url(/images/contact-phone-bg.png);
 }
 
 .b-contact__emailImg, .b-contact__officeImg, .b-contact__phoneImg {
@@ -1709,7 +1709,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 
 header {
   min-height: 740px;
-  background-image: url(../images/header-img.png);
+  background-image: url(/images/header-img.png);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 30px 90px;
@@ -1756,13 +1756,13 @@ header {
 }
 
 .iconHeart {
-  background-image: url(../images/heart.png);
+  background-image: url(/images/heart.png);
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .iconMouse {
-  background-image: url(../images/mouse.png);
+  background-image: url(/images/mouse.png);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -1772,7 +1772,7 @@ header {
 }
 
 .iconLight {
-  background-image: url(../images/light.png);
+  background-image: url(/images/light.png);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -1782,7 +1782,7 @@ header {
 }
 
 .iconTools {
-  background-image: url(../images/icon-tools.png);
+  background-image: url(/images/icon-tools.png);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -1792,13 +1792,13 @@ header {
 }
 
 .iconRoller {
-  background-image: url(../images/icon-roller.png);
+  background-image: url(/images/icon-roller.png);
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .iconJoystick {
-  background-image: url(../images/icon-joystick.png);
+  background-image: url(/images/icon-joystick.png);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -1808,7 +1808,7 @@ header {
 }
 
 .iconCable {
-  background-image: url(../images/icon-cable.png);
+  background-image: url(/images/icon-cable.png);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -1819,7 +1819,7 @@ header {
 
 .footerSection {
   min-height: 200px;
-  background-image: url(../images/portfolio-start-bg.png);
+  background-image: url(/images/portfolio-start-bg.png);
   background-size: cover;
   margin-top: 40px;
   display: -webkit-box;
@@ -1847,14 +1847,14 @@ header {
 
 .footerSectionTeam {
   margin-top: 0;
-  background-image: url(../images/team-footer-bg.png);
+  background-image: url(/images/team-footer-bg.png);
 }
 
 .carousel-control-next-icon {
-  background-image: url(../images/chevron-right-solid.svg);
+  background-image: url(/images/chevron-right-solid.svg);
 }
 
 .carousel-control-prev-icon {
-  background-image: url(../images/chevron-left-solid.svg);
+  background-image: url(/images/chevron-left-solid.svg);
 }
 /*# sourceMappingURL=style.css.map */
