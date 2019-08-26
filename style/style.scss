@@ -33,7 +33,7 @@
 
 header {
     min-height: 740px;
-    background-image: url(../images/header-img.png);
+    background-image: url(/images/header-img.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 30px 90px;
@@ -54,7 +54,7 @@ header {
     color: rgb(51, 59, 70);
     line-height: 0.75;
     text-align: center;
-    padding: 12px;
+    padding: 11px;
 
     &:hover {
         opacity: 0.6;

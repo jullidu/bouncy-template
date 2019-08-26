@@ -67,5 +67,16 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    &__signature {
+        font-size: 20px;
+        color: #000;
+
+        &:hover {
+            text-decoration: none;
+            color: #19bd9a;
+        }
     }
 }

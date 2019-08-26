@@ -19,12 +19,6 @@
         width: 100%;
     }
 
-
-
-
-
-
-
     &__front {
         background-color: #fff;
         position: absolute;
@@ -37,6 +31,7 @@
         transition-timing-function: linear;
         backface-visibility: hidden;
     }
+
 
     &:hover &__front {
         transform: rotateY(-180deg);
@@ -67,6 +62,4 @@
         transform: rotateY(0deg);
         visibility: visible;
     }
-
-
 }
