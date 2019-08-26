@@ -1710,7 +1710,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 }
 
 .container {
-  max-width: 1360px;
+  max-width: 1150px;
   padding: 0;
   font-family: "Open Sans", sans-serif;
   -webkit-box-sizing: border-box;
