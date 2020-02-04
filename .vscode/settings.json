@@ -4,5 +4,10 @@
         "extensionName": ".css",
         "savePath": null
     }],
-    "prettier.disableLanguages": ["html", "css", "scss"]
+    "prettier.disableLanguages": [
+        "html",
+        "css",
+        "scss"
+    ],
+    "liveServer.settings.port": 5502
 }
